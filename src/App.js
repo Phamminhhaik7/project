@@ -47,7 +47,12 @@ function App() {
           <h2  className="text-black font-bold">Giao dịch trung gian (Intermediary Transactions) là một hình thức kinh doanh trong đó một bên thứ ba tham gia vào để đảm bảo tính trung thực, an toàn cho cả bên mua và bên bán trong quá trình giao dịch.</h2>
         </div>
       </section>
-      
+      <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="500" className="relative mt-10 flex flex-wrap justify-center items-center">
+        <div  className="relative top-5 w-11/12 h-auto gradientlj shadow-md rounded-lg p-4 flex flex-col items-center text-center">
+        <h1  className="text-black font-bold bg-white bg-opacity-80 rounded-lg">Lợi Ích Khi Sử Dụng Dịch Vụ</h1>
+          <h2  className="text-black font-bold">Giao dịch trung gian (Intermediary Transactions) là một hình thức kinh doanh trong đó một bên thứ ba tham gia vào để đảm bảo tính trung thực, an toàn cho cả bên mua và bên bán trong quá trình giao dịch.</h2>
+        </div>
+      </section>      
     </>
   );
 }
