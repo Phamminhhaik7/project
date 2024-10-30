@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Thêm vào App.css hoặc styles.css */
+/* Thêm vào App.css hoặc styles.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: rgb(63,247,251);
+    background: radial-gradient(circle, rgba(63,247,251,1) 0%, rgba(255,255,255,1) 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.gradientgg {
+    background: rgb(11,255,211);
+background: linear-gradient(90deg, rgba(11,255,211,1) 0%, rgba(58,248,111,1) 100%);
+}
+.gradientlj {
+    background: rgb(77, 200, 238);
+    background: linear-gradient(90deg, rgb(76, 255, 121) 0%, rgba(11,255,211,1) 100%);
+}
+.textshadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
+.menu {
+    display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 792px) {
+    h1 {
+        font-size: 5vw;
+    }
+    .menu {
+        display: block; /* Hiển thị menu cho màn hình nhỏ */
+    }
+    .menu-content {
+        display: none; /* Ẩn nội dung menu lớn */
+    }
+   
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size:8vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    font-size:4vw;
 }
