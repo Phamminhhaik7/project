@@ -8,6 +8,9 @@ body{
     background: rgb(63,247,251);
     background: radial-gradient(circle, rgba(63,247,251,1) 0%, rgba(255,255,255,1) 100%);
 }
+/* *{
+outline: 4px solid green !important;
+} */
 .gradientgg {
     background: rgb(11,255,211);
 background: linear-gradient(90deg, rgba(11,255,211,1) 0%, rgba(58,248,111,1) 100%);
@@ -23,9 +26,12 @@ background: linear-gradient(90deg, rgba(11,255,211,1) 0%, rgba(58,248,111,1) 100
     display: none;
 }
 
-@media (max-width: 792px) {
+@media only screen and  (max-width: 767px) {
     h1 {
         font-size: 5vw;
+    }
+    h2 {
+        font-size:4vw;
     }
     .menu {
         display: block; /* Hiển thị menu cho màn hình nhỏ */
@@ -36,9 +42,11 @@ background: linear-gradient(90deg, rgba(11,255,211,1) 0%, rgba(58,248,111,1) 100
    
 }
 
-h1 {
-    font-size:8vw;
-}
-h2 {
-    font-size:4vw;
+@media only screen and  (min-width: 767px) {
+    h1 {
+        font-size:7vw;
+    }
+    h2 {
+        font-size:4vw;
+    }
 }
